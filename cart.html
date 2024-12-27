@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Магазин</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Магазин товарів</h1>
+      <a class="link-menu" href="index.html">Головна сторінка</a>
+    </header>
+    <main>
+      <h2 class="text">Ваш кошик:</h2>
+      <section class="cart-list"></section>
+      <section class="order">
+        <form action="#" method="post">
+          <input type="text" name="Full name" placeholder="Ваш ПІБ" />
+          <input type="email" name="Email" placeholder="Ваш емейл" />
+          <input type="tel" name="Tel" placeholder="Ваш телефон" />
+          <input type="text" name="adress" placeholder="Введіть адресу" />
+          <select name="Post">
+            <option value="choose">Виберіть службу доставки</option>
+            <option value="Нова Пошта">Нова пошта</option>
+            <option value="Укрпошта">Укрпошта</option>
+            <option value="Meest">Meest</option>
+          </select>
+          <textarea placeholder="Ваш коментар:"></textarea>
+          <button type="submit" class="submit">Пітвердити</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 WebTeach</p>
+    </footer>
+
+    <script src="js/cart.js"></script>
+  </body>
+</html>
